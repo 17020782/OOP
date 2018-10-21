@@ -1,0 +1,12 @@
+.nhap
+{
+    -fx-font-weight: bold;
+
+}
+#Border{
+    -fx-border-color: cornflowerblue;
+
+}
+.root{
+    -fx-background-color: #d2d2d2;
+}

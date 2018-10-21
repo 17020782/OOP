@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="com.mysql.jdbc_5.1.5.jar">
+    <CLASSES>
+      <root url="jar://F:/Thu Viện java/com.mysql.jdbc_5.1.5.jar.zip!/" />
+      <root url="jar://D:/Chrome Dowloads/com.mysql.jdbc_5.1.5.jar.zip!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/freetts.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/cmu_time_awb.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/cmu_us_kal.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/com.mysql.jdbc_5.1.5.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/en_us.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/freetts-jsapi10.jar!/" />
+      <root url="jar://F:/Thu Viện java/thuVien/mbrola.jar!/" />
+      <root url="jar://D:/Chrome Dowloads/mysql-connector-java-5.1.9.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://D:/Chrome Dowloads/com.mysql.jdbc_5.1.5.jar.zip!/" recursive="false" />
+    <jarDirectory url="jar://D:/Chrome Dowloads/mysql-connector-java-5.1.9.jar.zip!/" recursive="false" />
+  </library>
+</component>

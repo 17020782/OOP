@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="translate" layoutX="236.0" layoutY="79.0" mnemonicParsing="false" onAction="#Submit" prefHeight="31.0" prefWidth="73.0" text="     Dịch" />
+        <TextField fx:id="inPut" layoutX="69.0" layoutY="79.0" />
+        <Label layoutX="29.0" layoutY="82.0" styleClass="nhap" text="Nhập:">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <ListView fx:id="listView" layoutX="55.0" layoutY="151.0" onMouseClicked="#setKeyPressed" prefHeight="360.0" prefWidth="248.0" />
+        <Text fill="#ab1717" layoutX="506.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nhap" text="Nghĩa của từ" wrappingWidth="97.0" />
+        <Text layoutX="91.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nhap" text="Danh sách từ gợi ý" />
+        <Text layoutX="125.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nhap" text="Tìm từ" />
+        <ImageView fitHeight="39.0" fitWidth="57.0" layoutX="797.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/coanh.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="39.0" fitWidth="65.0" layoutX="854.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/covn.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="20.0" fitWidth="23.0" layoutX="236.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../icon/find.gif" />
+            </image>
+        </ImageView>
+      <WebView fx:id="webView" layoutX="403.0" layoutY="153.0" prefHeight="360.0" prefWidth="302.0" />
+      <Button fx:id="search" layoutX="322.0" layoutY="220.0" mnemonicParsing="false" onAction="#Submit" text="Search" />
+          <Button fx:id="Insert" layoutX="788.0" layoutY="136.0" mnemonicParsing="false" onAction="#openWindowAddWord" prefHeight="31.0" prefWidth="106.0" text="Thêm từ">
+              <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../icon/add.gif" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button fx:id="Edit" layoutX="788.0" layoutY="235.0" mnemonicParsing="false" onAction="#openWindowEditWord" prefHeight="34.0" prefWidth="106.0" text="Sửa Từ">
+              <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../icon/edit.gif" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button fx:id="Delete" layoutX="788.0" layoutY="331.0" mnemonicParsing="false" onAction="#openWindowDeleteWord" prefHeight="31.0" prefWidth="106.0" text="Xóa từ">
+              <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../icon/delete.gif" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Text fill="#c91515" layoutX="809.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="nhap" text="Công cụ" wrappingWidth="65.0" />
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="913.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="322.0" layoutY="318.0" mnemonicParsing="false" onAction="#handle" prefHeight="31.0" prefWidth="65.0" text="Speak" />
+    </children>
+</AnchorPane>

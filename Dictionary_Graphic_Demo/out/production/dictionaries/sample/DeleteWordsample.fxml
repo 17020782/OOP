@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteWordController">
+   <children>
+      <TextField fx:id="inputdelete" layoutX="207.0" layoutY="25.0" />
+      <Label layoutX="102.0" layoutY="30.0" text="Từ cần xóa" />
+      <Button layoutX="441.0" layoutY="314.0" mnemonicParsing="false" onAction="#SetDeleteButton" text="Xóa" />
+      <Button layoutX="504.0" layoutY="314.0" mnemonicParsing="false" onAction="#goBack" text="Cancel" />
+      <ListView fx:id="listView" layoutX="166.0" layoutY="78.0" prefHeight="242.0" prefWidth="235.0" />
+      <Button fx:id="Search" layoutX="441.0" layoutY="128.0" mnemonicParsing="false" onAction="#Submit" text="Search" />
+   </children>
+</AnchorPane>

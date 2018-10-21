@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dictionaries:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dictionaries_jar</output-path>
+    <root id="archive" name="dictionaries.jar">
+      <element id="module-output" name="dictionaries" />
+      <element id="extracted-dir" path="E:/sql/thuVien/mysql-connector-java-5.1.47.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/mbrola.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/freetts.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/freetts-jsapi10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/en_us.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/com.mysql.jdbc_5.1.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/cmu_us_kal.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/thuVien/cmu_time_awb.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/sql/mysql-8.0.12-winx64.zip" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

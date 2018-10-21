@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddWordController">
+   <children>
+      <Label layoutX="104.0" layoutY="68.0" text="Tiếng anh" />
+      <Label layoutX="64.0" layoutY="146.0" text="Nghĩa tiếng việt" />
+      <TextField fx:id="inputword" layoutX="191.0" layoutY="63.0" />
+      <TextField fx:id="inputexplain" layoutX="191.0" layoutY="141.0" prefHeight="88.0" prefWidth="300.0" />
+      <Button fx:id="Add" layoutX="412.0" layoutY="293.0" mnemonicParsing="false" onAction="#SetInsertButton" text="Thêm" />
+      <Button fx:id="Cancel" layoutX="491.0" layoutY="293.0" mnemonicParsing="false" onAction="#goBack" text="Cancel" />
+   </children>
+</AnchorPane>
