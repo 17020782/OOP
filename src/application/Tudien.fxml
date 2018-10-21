@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="817.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <columnConstraints>
+   <children>
+      <AnchorPane prefHeight="817.0" prefWidth="280.0" style="-fx-background-color: #3D4956;">
+         <children>
+            <Label layoutX="-2.0" layoutY="37.0" prefHeight="77.0" prefWidth="266.0" text="DICTIONARIES" textFill="WHITE">
+               <padding>
+                  <Insets bottom="20.0" left="40.0" right="20.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button alignment="BOTTOM_CENTER" layoutX="93.0" layoutY="304.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="158.0" style="-fx-background-radius: 2em;" text="Insert">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button alignment="BOTTOM_CENTER" layoutX="95.0" layoutY="396.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="158.0" style="-fx-background-radius: 2em;" text="Delete">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button alignment="BOTTOM_CENTER" layoutX="96.0" layoutY="483.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="158.0" style="-fx-background-radius: 2em;" text="Edit">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" prefHeight="817.0" prefWidth="900.0" style="-fx-background-color: #23CE6B;">
+         <children>
+            <WebView layoutX="494.0" layoutY="181.0" prefHeight="528.0" prefWidth="377.0" />
+            <ListView layoutX="39.0" layoutY="224.0" prefHeight="383.0" prefWidth="219.0" />
+            <AnchorPane prefHeight="817.0" prefWidth="900.0" style="-fx-background-color: #23CE6B;">
+               <children>
+                  <TextField layoutX="36.0" layoutY="178.0" prefHeight="45.0" prefWidth="219.0" />
+                  <Button layoutX="283.0" layoutY="180.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="178.0" text="Translate">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="36.0" layoutY="149.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" text="Search" />
+                  <TextField layoutX="510.0" layoutY="178.0" prefHeight="429.0" prefWidth="365.0" style="-fx-background-color: #d3d3d3;" />
+                  <MenuBar layoutX="740.0" layoutY="-2.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Close" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Edit">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Delete" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Help">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="About" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
